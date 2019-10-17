@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dibujar Cuadrícula</title>
+</head>
+<body>
+<h1>Dibujar Cuadrícula</h1>
+
+<canvas height="300px" width="300px" id="micanvas">
+Su navegador no soporta en elemento CANVAS</canvas>
+
+<script>
+var canvas = document.getElementById("micanvas");
+var ctx = canvas.getContext("2d");
+for (var x=0; x<=300; x=x+42.75){
+ctx.moveTo(x,0);
+ctx.lineTo(x,300);
+}
+for (var y=0; y<=300; y=y+37.5){
+ctx.moveTo(0,y);
+ctx.lineTo(300,y);
+
+
+
+}
+ctx.fillRect(128,0,42.75,37.5)
+ctx.fillRect(170,37,42.75,37.5)
+ctx.fillRect(214,75,42.75,37.5)
+ctx.fillRect(85,37,42.75,37.5)
+ctx.fillRect(43,75,42.75,37.5)
+ctx.fillRect(0,113,42.75,37.5)
+ctx.fillRect(256,150,42.75,37.5)
+ctx.fillRect(0,188,42.75,37.5)
+ctx.fillRect(256,188,42.75,37.5)
+ctx.fillRect(43,188,42.75,37.5)
+ctx.fillRect(85,188,42.75,37.5)
+ctx.fillRect(214,188,42.75,37.5)
+ctx.fillRect(170,188,42.75,37.5)
+ctx.fillRect(128,188,42.75,37.5)
+ctx.fillRect(128,188,42.75,37.5)
+ctx.fillRect(0,150,42.75,37.5)
+ctx.fillRect(0,225,42.75,37.5)
+ctx.fillRect(256,225,42.75,37.5)
+ctx.fillRect(256,112,42.75,37.5)
+ctx.fillRect(256,112,42.75,37.5)
+ctx.fillRect(256,112,42.75,37.5)
+ctx.fillRect(0,262,42.75,37.5)
+ctx.fillRect(256,262,42.75,37.5)
+
+
+
+// Mueves el pencil y luego persistes con stroke
+ctx.strokeStyle = "#000000";
+ctx.stroke();
+</script>
+
+
+</body>
