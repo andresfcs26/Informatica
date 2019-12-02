@@ -1,0 +1,27 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+<title> ejercicio002.html </title>
+</head>
+<body>
+
+<h1> Imagenes </h1>
+
+
+<img src="balon-futbol.jpg" width="200" heighl-"200" >
+<img src="tenis.jpg" width="200" heighl-"200" >
+<img src="raquetas.jpg" width="200" heighl-"200" >
+</body>
+<h1> GIF </h1>
+<img src="baloncesto.gif" width="100" heighl-"100" >
+
+
+<h1> <p style="color:green;"> Texto con estilo: Color </p> </h1>
+
+<p style="color:red;"> Fruta: Manzana </p> 
+
+
+<p style="color:blue; font-size:32px;"> Texto con atributos de color y de tamaño </p> 
+
+
+</html>
