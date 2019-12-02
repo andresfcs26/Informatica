@@ -1,0 +1,29 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+<title> ejercicio001.html </title>
+</head>
+<body>
+
+<h1> Ejercicio No. 01 </h1>
+<h2> Paragrafos y Listas</h2>
+
+<p> Desarrollada por: Andres Felipe Castañeda Guzman</p>
+<p> 1193560761 </p>
+<p> 01/12/2019 </p>
+<p> PARADIGMAS DE PROGRAMACION:</p>
+<ul>
+<li> Imperativo </li>
+<li> Funcional </li>
+<li> Orientado a Objetos </li>
+</ul>
+
+<p> Universidades </p>
+<ol>
+<li> <a href="https://uniandes.edu.co/"> Universidad de Los Andes</a>
+<li> <a href="http://unal.edu.co/"> Universidad Nacional de Colombia</a>
+<li> <a href="https://www.univalle.edu.co/"> Universidad del Valle</a>
+
+
+</body>
+</html>
